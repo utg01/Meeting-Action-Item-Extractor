@@ -15,7 +15,7 @@ load_dotenv()
 
 api_key = st.secrets["GEMINI_API_KEY2"]
 
-meeting_model = ChatGoogleGenerativeAI(model="gemini-2.5-flash",google_api_key=api_key)
+meeting_model = ChatGoogleGenerativeAI(model="gemini-3.5-flash-lite",google_api_key=api_key)
 
 class TasksOwners(BaseModel):
     task: str = Field(description="what is the task that has to be performed?")

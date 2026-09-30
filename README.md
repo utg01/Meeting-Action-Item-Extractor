@@ -105,7 +105,7 @@ The deployed version, when configured, should receive the same value through Str
 
 ### Deployment note
 
-This is a Streamlit application and is best deployed on Streamlit Community Cloud or another host that can run a long-lived Streamlit process. Vercel's Python functions are not a direct host for Streamlit's interactive server, so deploying this project on Vercel would require replacing the Streamlit interface with a Vercel-compatible API and frontend.
+This Streamlit application is ready for deployment on Streamlit Community Cloud. Set the main file to `main.py`, keep `requirements.txt` in the repository root, and add `GEMINI_API_KEY2` through the app's Secrets settings.
 
 ## Using the evaluation form
 
