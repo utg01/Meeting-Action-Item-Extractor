@@ -61,8 +61,7 @@ The evaluation screen reports precision, recall, F1, and field-level accuracy fo
 |-- evaluation_data.py   Example transcripts and labelled cases
 |-- system_prompts.py    Extraction and verification instructions
 |-- requirements.txt     Runtime dependencies
-|-- pyproject.toml       Project metadata
-`-- .devcontainer/       Optional development-container setup
+`-- .gitignore           Local files excluded from version control
 ```
 
 ## Run it locally
@@ -103,6 +102,10 @@ streamlit run main.py
 ```
 
 The deployed version, when configured, should receive the same value through Streamlit Secrets instead of a committed file. Keep `.env` and API keys out of version control.
+
+### Deployment note
+
+This is a Streamlit application and is best deployed on Streamlit Community Cloud or another host that can run a long-lived Streamlit process. Vercel's Python functions are not a direct host for Streamlit's interactive server, so deploying this project on Vercel would require replacing the Streamlit interface with a Vercel-compatible API and frontend.
 
 ## Using the evaluation form
 
