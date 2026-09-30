@@ -34,7 +34,7 @@ review_model = meeting_model.with_structured_output(Action_items)
 if "transcript_text" not in st.session_state:
     st.session_state["transcript_text"] = ""
 
-st.sidebar.title("Briefly")
+st.sidebar.title("Meeting Action Item Extractor")
 
 st.sidebar.markdown("### Navigation")
 

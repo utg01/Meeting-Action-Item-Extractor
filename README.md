@@ -1,6 +1,6 @@
-# Briefly: Meeting Action Tracker
+# Meeting Action Item Extractor
 
-Briefly turns a raw meeting transcript into a reviewable list of follow-up work. It is a small Streamlit workbench for testing how reliably an LLM can identify commitments, preserve the details people actually said, and expose uncertainty instead of quietly filling in gaps.
+Meeting Action Item Extractor turns a raw meeting transcript into a reviewable list of follow-up work. It is a small Streamlit workbench for testing how reliably an LLM can identify commitments, preserve the details people actually said, and expose uncertainty instead of quietly filling in gaps.
 
 The app has two useful modes:
 
@@ -9,7 +9,7 @@ The app has two useful modes:
 
 ## Why the pipeline has multiple passes
 
-A single model response is easy to read but difficult to trust. Briefly keeps the process visible:
+A single model response is easy to read but difficult to trust. The application keeps the process visible:
 
 ```text
 transcript

@@ -1,5 +1,5 @@
 [project]
-name = "briefly-meeting-tracker"
+name = "meeting-action-item-extractor"
 version = "0.1.0"
 description = "A Streamlit workbench for extracting and evaluating meeting follow-up tasks"
 readme = "README.md"
