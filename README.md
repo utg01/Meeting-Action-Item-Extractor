@@ -125,6 +125,4 @@ This project intentionally stays small and inspectable. It does not add retrieva
 
 Possible follow-up work includes transcript file uploads, CSV/JSON export, calendar integrations, longer-context handling, and a larger labelled benchmark.
 
-## Project note
 
-This workspace is a personal adaptation of the public [AI Meeting action item extractor repository](https://github.com/drishti-g/AI-Meeting-action-item-extractor). The application flow is intentionally kept compatible while the documentation, naming, and presentation have been reorganised for this version.
